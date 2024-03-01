@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://saamturner.github.io/test-test/pennsound-/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Pennsound " ] },
+    "homepage": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/singles/",
+        "type": "Text",
+        "label": { "en": [ "Pennsound " ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/",
+        "type": "Agent",
+        "label": { "en": [ "PennSound" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://saamturner.github.io/test-test/pennsound-/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 90.0,
+        "items": [
+          {
+            "id": "https://saamturner.github.io/test-test/pennsound-/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://saamturner.github.io/test-test/pennsound-/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/writershouse/Capstone07/Aliperti-Pia_17_Readers-Writers_Capstone_UPenn_5-13-07.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 90.0
+                },
+                "target": "https://saamturner.github.io/test-test/pennsound-/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
